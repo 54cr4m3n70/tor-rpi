@@ -2,4 +2,4 @@
 Alpine Linux Tor for Raspberry Pi
 
 Based https://github.com/foertel/rpi-alpine-tor
-tor 0.4.0.5
+tor 0.4.1.5
