@@ -3,7 +3,7 @@
 FROM armhf/alpine:latest
 MAINTAINER Edilson Jardim Filho "https://github.com/54cr4m3n70"
 
-ENV TOR_VERSION 0.4.0.5
+ENV TOR_VERSION 0.4.1.5
 
 EXPOSE 9050
 
