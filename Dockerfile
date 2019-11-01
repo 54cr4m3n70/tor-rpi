@@ -1,9 +1,9 @@
 # Tor - stable version
 
-FROM armhf/alpine:latest
+FROM alpine
 MAINTAINER Edilson Jardim Filho "https://github.com/54cr4m3n70"
 
-ENV TOR_VERSION 0.4.1.5
+ENV TOR_VERSION 0.4.1.6
 
 EXPOSE 9050
 
