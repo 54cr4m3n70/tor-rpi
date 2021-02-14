@@ -3,7 +3,7 @@
 FROM alpine
 MAINTAINER Edilson Jardim Filho "https://github.com/54cr4m3n70"
 
-ENV TOR_VERSION 0.4.2.6
+ENV TOR_VERSION 0.4.2.7
 
 EXPOSE 9050
 
