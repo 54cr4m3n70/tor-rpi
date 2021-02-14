@@ -1,9 +1,9 @@
 # Tor - stable version
 
-FROM armhf/alpine:latest
+FROM arm32v7/alpine
 MAINTAINER Edilson Jardim Filho "https://github.com/54cr4m3n70"
 
-ENV TOR_VERSION 0.3.4.9
+ENV TOR_VERSION 0.4.4.7	
 
 EXPOSE 9050
 
@@ -25,8 +25,8 @@ RUN build_pkgs=" \
   && cd /tmp \
   && wget https://www.torproject.org/dist/tor-$TOR_VERSION.tar.gz \
   && wget https://www.torproject.org/dist/tor-$TOR_VERSION.tar.gz.asc \
-  && gpg --keyserver pool.sks-keyservers.net --recv-keys 0x4E2C6E8793298290 \
-  || gpg --fingerprint 0x4E2C6E8793298290 \
+  && gpg --keyserver pool.sks-keyservers.net --recv-keys 0x21194EBB165733EA \
+  || gpg --fingerprint 0x21194EBB165733EA \
   || gpg --verify tor-$TOR_VERSION.tar.gz.asc \
   && tar xzf tor-$TOR_VERSION.tar.gz \
   && cd /tmp/tor-$TOR_VERSION \
