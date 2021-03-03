@@ -1,9 +1,9 @@
 # Tor - stable version
 
 FROM arm32v7/alpine
-MAINTAINER Edilson Jardim Filho "https://github.com/54cr4m3n70"
+LABEL MAINTAINER = "54cr4m3n70"
 
-ENV TOR_VERSION 0.4.4.7	
+ENV TOR_VERSION 0.4.5.6	
 
 EXPOSE 9050
 
